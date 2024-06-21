@@ -46,9 +46,12 @@ h2 {
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    font-weight: light;
+    font-size: 15px;
  }
  span {
    font-size: 12px;
    font-style: italic;
-   font-weight:lighter;
+   font-weight:700;
+   color:red;
  }

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const message = document.getElementById('message').value.trim();
 
         if (!firstName || !email || !message) {
-            showStatus.textContent = 'Please fill out all required fields.';
+            showStatus.textContent = 'Please fill out all required fields.!!!';
             showStatus.className = 'error';
             return;
         }
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 2000);
         })
         .catch(error => {
-            showStatus.textContent = 'There was a problem submitting your message. Please try again later.';
+            showStatus.textContent = 'There was a problem submitting your message. Please try again later. !!!';
             showStatus.className = 'error';
         });
     });
